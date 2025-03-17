@@ -7,27 +7,27 @@
 int main() {
     // Nível Novato - Movimentação das Peças
     // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
-    int i = 0, a = 1;
+    int i = 0, j = 1;
 
     // Implementação de Movimentação do Bispo
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
-    printf("BISPO\n");
+    printf("»»» BISPO «««\n");
     do {
-        printf("Cima Direita\n", a);
-        a++;
+        printf("Cima Direita\n", j);
+        j++;
 
-    } while (a <= 5);
+    } while (j <= 5);
 
     // Implementação de Movimentação da Torre
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.    
-    printf("TORRE\n");
+    printf("»»» TORRE «««\n");
     for (int i = 0; i < 5; i++){
         printf("Cima\n"); //imprime a direçao do movimentos da torre
     }
 
     // Implementação de Movimentação da Rainha
     // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
-    printf("RAINHA\n");
+    printf("»»» RAINHA «««\n");
     while (i < 8)
     {
         printf("Esquerda\n");
